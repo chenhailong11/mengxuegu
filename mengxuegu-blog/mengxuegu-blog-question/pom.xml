@@ -79,7 +79,7 @@
                     <!-- true 会覆盖构建相同标签的镜像 -->
                     <forceTags>true</forceTags>
                     <!--指定 Dockerfile 位置-->
-                    <dockerDirectory>src/main/docker</dockerDirectory>
+                    <dockerDirectory>${project.basedir}/src/main/docker</dockerDirectory>
                     <!-- 将jar文件从target目录复制到镜像的根目录 -->
                     <resources>
                         <resource>
