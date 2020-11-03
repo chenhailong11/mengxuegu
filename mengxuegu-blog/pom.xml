@@ -135,7 +135,7 @@
         </dependencies>
     </dependencyManagement>
 
-    <repositories>
+<!--    <repositories>
         <repository>
             <id>maven-public</id>
             <name>landtool nexus</name>
@@ -147,7 +147,7 @@
                 <enabled>true</enabled>
             </snapshots>
         </repository>
-    </repositories>
+    </repositories>-->
 
     <build>
         <plugins>
